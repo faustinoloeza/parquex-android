@@ -1,0 +1,11 @@
+{
+ "format": "parquex-animated",
+ "version": 1,
+ "park": "xh",
+ "frame": "local meters of xh/park.json (x east, y up, z south, origin at its center)",
+ "nightActivity": {
+  "pace": 0.12,
+  "birds": 0.15
+ },
+ "pieces": []
+}

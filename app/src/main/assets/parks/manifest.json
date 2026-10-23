@@ -1,0 +1,237 @@
+{
+ "format": 1,
+ "tag": "bundled",
+ "published": "2026-10-23T07:29:58.607Z",
+ "parks": {
+  "xc": {
+   "files": {
+    "park.json": {
+     "size": 69698,
+     "sha256": "dba806cdd939a24c0222208c6418b3a02b2201e998547a7d2a9e5d9463e0a753",
+     "asset": "xc.park.json"
+    },
+    "park-models.glb": {
+     "size": 4894732,
+     "sha256": "abc34bd19730fc4ab0f18e0c4dcf1296d77427ca9921b7401995e08a9cb033df",
+     "asset": "xc.park-models.glb"
+    },
+    "instances.bin": {
+     "size": 308437,
+     "sha256": "b0bb0d255e077f155136f7260626ac5b770d5328f44013dc3e3d97ce35ecece0",
+     "asset": "xc.instances.bin"
+    },
+    "lamps.bin": {
+     "size": 7452,
+     "sha256": "f4d94c6e20999e8c2c090ef417706b2a07a346aadbbbb32cdcc037e9dc2b2bc4",
+     "asset": "xc.lamps.bin"
+    },
+    "night.json": {
+     "size": 8193,
+     "sha256": "e7daa5dbb68b16382d7e98470a84319bc39e90845b193c52393ab20f57384f6b",
+     "asset": "xc.night.json"
+    },
+    "animated.json": {
+     "size": 16439,
+     "sha256": "58cdfd80376ff8b69d51f8c5d27151f448f4940182c9ffdd3c74a3592dda82cf",
+     "asset": "xc.animated.json"
+    },
+    "context.glb": {
+     "size": 1347916,
+     "sha256": "aaf5b350b562bc3e86ec7e540d2ff40c2690530834a23a7f5cb68379f5bf4695",
+     "asset": "xc.context.glb"
+    },
+    "context-instances.bin": {
+     "size": 332857,
+     "sha256": "9e87cf5dbb5533aa29edc7c3c1b710663ec5838d6bf86324283e2713501a43c0",
+     "asset": "xc.context-instances.bin"
+    },
+    "context-lamps.bin": {
+     "size": 3084,
+     "sha256": "485916600887a32cfe230233ebbbc818200bbd58338ea3416dba388da41d0871",
+     "asset": "xc.context-lamps.bin"
+    },
+    "context.json": {
+     "size": 41657,
+     "sha256": "50bf0785f5b2445e35ff7b7669c87b5c60ec0f5332bb940538b18b8704a6c79d",
+     "asset": "xc.context.json"
+    }
+   }
+  },
+  "xh": {
+   "files": {
+    "park.json": {
+     "size": 37366,
+     "sha256": "b3cd3b4ff944e29eda2c198b53c6570d58f301d50046343d763a3fce0ce90e1e",
+     "asset": "xh.park.json"
+    },
+    "park-models.glb": {
+     "size": 2178472,
+     "sha256": "7eab7daea936cdb9dc8dae79b4250243f9a7bcee7837752d1d329941c8a71a28",
+     "asset": "xh.park-models.glb"
+    },
+    "instances.bin": {
+     "size": 413157,
+     "sha256": "091355d6480ea8a7dac3d64ee31f33630e8846ef6dacc3b114fd8b6d419e9e2c",
+     "asset": "xh.instances.bin"
+    },
+    "lamps.bin": {
+     "size": 6428,
+     "sha256": "ef7a63f4c72047e0f8abd292e567ea19232eec7e354a53d231b6e969fe697912",
+     "asset": "xh.lamps.bin"
+    },
+    "night.json": {
+     "size": 8196,
+     "sha256": "74ff2e4f880aa820814fdeb8a9ac8da900e19296ab8395061d682c75b163f040",
+     "asset": "xh.night.json"
+    },
+    "animated.json": {
+     "size": 222,
+     "sha256": "580a83e06305580f79e75f0b3026c8dc746174edbd6f4aef8275ee7a2ef8dccb",
+     "asset": "xh.animated.json"
+    }
+   }
+  },
+  "xp": {
+   "files": {
+    "park.json": {
+     "size": 5886,
+     "sha256": "379d3c911cd077bb03fed4c847130dd448e3016ec6fdf32138907124ebf77712",
+     "asset": "xp.park.json"
+    },
+    "park-models.glb": {
+     "size": 1789492,
+     "sha256": "1c13d6daa795cb199209258b3ea956671ff086daf5dbf3163d0d0eebaadffcb0",
+     "asset": "xp.park-models.glb"
+    },
+    "instances.bin": {
+     "size": 544421,
+     "sha256": "5d24959823a4bb660d1790e6c8b227fd3d6c24107a77f00e9f428513ac620e44",
+     "asset": "xp.instances.bin"
+    },
+    "lamps.bin": {
+     "size": 1036,
+     "sha256": "84596481c12275882bc36466a6c40bf2e75bfbcbaa630bafcb25989e64815529",
+     "asset": "xp.lamps.bin"
+    },
+    "night.json": {
+     "size": 8185,
+     "sha256": "4b5da8fbcac54316de8b5ccfbdfa609cdfb36cc19fbcb23e592c2d19c333e3ee",
+     "asset": "xp.night.json"
+    },
+    "animated.json": {
+     "size": 222,
+     "sha256": "6807e24ce7184307f23d22052bc7b290d69f4de1faca10078df60d28e382a374",
+     "asset": "xp.animated.json"
+    },
+    "context.glb": {
+     "size": 1401212,
+     "sha256": "985db55e69b52c04365545b8f1665615361a35ebc8c14f21f34ce089d5b0bf2a",
+     "asset": "xp.context.glb"
+    },
+    "context-instances.bin": {
+     "size": 326725,
+     "sha256": "28ce9cefb3784b43162963966ff2385a9b43fd2aaba04033d14c4fad5ddc70de",
+     "asset": "xp.context-instances.bin"
+    },
+    "context-lamps.bin": {
+     "size": 9500,
+     "sha256": "dae768bf6c635eb08ed640390b13ab345436e94af677dd0a403018941e857bcc",
+     "asset": "xp.context-lamps.bin"
+    },
+    "context.json": {
+     "size": 40676,
+     "sha256": "b209f021d99bad7c97c39a4f918a9cd0899e29de76698d408ab081c6bbab2fda",
+     "asset": "xp.context.json"
+    }
+   }
+  },
+  "xs": {
+   "files": {
+    "park.json": {
+     "size": 10996,
+     "sha256": "df01ca71abb1039509b84ff4858b62e638c835a6e8b92e4fe8ba32f55a405b9c",
+     "asset": "xs.park.json"
+    },
+    "park-models.glb": {
+     "size": 1503992,
+     "sha256": "0a48c4da53189ab387966cb5fbd4474794556bb6660578b33238d158a2fbad2a",
+     "asset": "xs.park-models.glb"
+    },
+    "instances.bin": {
+     "size": 233089,
+     "sha256": "3cf803941a61385b6879e39775b950383f4b489524daf0ded1d3db7a5162eb4b",
+     "asset": "xs.instances.bin"
+    },
+    "lamps.bin": {
+     "size": 2060,
+     "sha256": "d46cf3eb8bd34bb6c2022b44adf708998a3c95adc74d11b2a7a4ce6f4fb62a3e",
+     "asset": "xs.lamps.bin"
+    },
+    "night.json": {
+     "size": 8186,
+     "sha256": "78ba4efb091532b54610847b803d3f35525552dc89474144e3e866b9999fefc7",
+     "asset": "xs.night.json"
+    },
+    "animated.json": {
+     "size": 222,
+     "sha256": "df19a7bdbc1227c5925b668e74a8e8abca10ddd089d35433d370db739213d490",
+     "asset": "xs.animated.json"
+    },
+    "context.glb": {
+     "size": 1497708,
+     "sha256": "db4ad0dd54bbc35dc22a588c653c3ad24fad4d532c1fbab786c1b113582976e7",
+     "asset": "xs.context.glb"
+    },
+    "context-instances.bin": {
+     "size": 354445,
+     "sha256": "9ab11f228cebca0ec69bf14325a9d281e41009e809d995e195ad79dc649db6c6",
+     "asset": "xs.context-instances.bin"
+    },
+    "context-lamps.bin": {
+     "size": 8476,
+     "sha256": "e74a09628b9ce619b07b08ae015c74e35157ecf8eaedbefb1479cbac85156ee3",
+     "asset": "xs.context-lamps.bin"
+    },
+    "context.json": {
+     "size": 40616,
+     "sha256": "c9ccc23858fe21289f2ad6b688b20d1023f8cda9b099a0f3fa858cb4124702ee",
+     "asset": "xs.context.json"
+    }
+   }
+  },
+  "xo": {
+   "files": {
+    "park.json": {
+     "size": 6535,
+     "sha256": "85f129ce78a1baf9d657efe4fc0e5d3ef112bd765bd1a06fc08f2ae87cfc72ef",
+     "asset": "xo.park.json"
+    },
+    "park-models.glb": {
+     "size": 2296320,
+     "sha256": "bd31965aa2614b8684dcc365dc547cf5d657524847676c0ed64d1187a3c7f8b0",
+     "asset": "xo.park-models.glb"
+    },
+    "instances.bin": {
+     "size": 518745,
+     "sha256": "f3db1f2d078b61727176e946c446732b6a03374675b985a848001cd49a408b21",
+     "asset": "xo.instances.bin"
+    },
+    "lamps.bin": {
+     "size": 2316,
+     "sha256": "dcfea5db5775add9c95d6a3980ca0ad67a897babecd8185e8513c396fddbadfe",
+     "asset": "xo.lamps.bin"
+    },
+    "night.json": {
+     "size": 8186,
+     "sha256": "7e689599e29f51646c704a16d3d33d5fa8e1196724d56f004a838c7a4c1a7b6d",
+     "asset": "xo.night.json"
+    },
+    "animated.json": {
+     "size": 222,
+     "sha256": "8683d431b4f2dbb397d7b9a661e21a324daaadc591100043d703c273e49af87e",
+     "asset": "xo.animated.json"
+    }
+   }
+  }
+ }
+}

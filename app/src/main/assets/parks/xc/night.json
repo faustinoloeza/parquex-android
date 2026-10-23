@@ -1,0 +1,377 @@
+{
+ "format": "parquex-night",
+ "version": 1,
+ "park": "xc",
+ "frame": "local meters of xc/park.json (x east, y up, z south, origin at its center)",
+ "when": {
+  "modes": [
+   "auto",
+   "day",
+   "night"
+  ],
+  "auto": "night from 19:00 to 06:00 park time",
+  "nightHours": {
+   "from": 19,
+   "to": 6
+  },
+  "utcOffsetHours": -5,
+  "timeZone": "America/Cancun (UTC−5 all year, no DST)",
+  "recheckSeconds": 60,
+  "transitionSeconds": 1.5,
+  "easing": "k = smoothstep(0, 1, p); p moves linearly 0 ↔ 1 over transitionSeconds",
+  "nightClassAbove": 0.5
+ },
+ "lighting": {
+  "day": {
+   "sky": "#e3edf2",
+   "hemiSky": "#f3f7ff",
+   "hemiGround": "#8c9c70",
+   "hemi": 1.6,
+   "sun": "#fff0d9",
+   "sunIntensity": 2.3,
+   "shadow": 0.72,
+   "exposure": 1.06
+  },
+  "night": {
+   "sky": "#0d1a3e",
+   "hemiSky": "#7c86cc",
+   "hemiGround": "#5a4462",
+   "hemi": 1.75,
+   "sun": "#a9b9ff",
+   "sunIntensity": 0.5,
+   "shadow": 0.5,
+   "exposure": 1
+  },
+  "blend": "colors lerped in linear RGB (three.js Color.lerp of sRGB hex → linear), numbers lerped, with k",
+  "toneMapping": "Neutral (Khronos PBR Neutral)",
+  "fog": "color = sky; near = distance * 0.9 + 150, far = distance * 2.6 + 900 (distance = camera to target, m)"
+ },
+ "colors": {
+  "window": "#ffcf7a",
+  "lamp": "#ffc56b"
+ },
+ "materials": {
+  "rule": "emissiveStrength = day + (night - day) * k, per material (MaterialInstance.setParameter(\"emissiveStrength\", …)); emissiveFactor and textures are already in park-models.glb",
+  "list": [
+   {
+    "name": "facade",
+    "emissiveFactor": [
+     1,
+     0.62396,
+     0.19462
+    ],
+    "emissiveColor": "#ffcf7a",
+    "day": 0,
+    "night": 1.5,
+    "emissiveTexture": {
+     "name": "facade-glow",
+     "texCoord": 1
+    },
+    "inThisPark": true
+   },
+   {
+    "name": "facadeWhite",
+    "emissiveFactor": [
+     1,
+     0.62396,
+     0.19462
+    ],
+    "emissiveColor": "#ffcf7a",
+    "day": 0,
+    "night": 1.5,
+    "emissiveTexture": {
+     "name": "facade-glow",
+     "texCoord": 1
+    },
+    "inThisPark": true
+   },
+   {
+    "name": "facadeOchre",
+    "emissiveFactor": [
+     1,
+     0.62396,
+     0.19462
+    ],
+    "emissiveColor": "#ffcf7a",
+    "day": 0,
+    "night": 1.5,
+    "emissiveTexture": {
+     "name": "facade-glow",
+     "texCoord": 1
+    },
+    "inThisPark": true
+   },
+   {
+    "name": "facadeMaroon",
+    "emissiveFactor": [
+     1,
+     0.62396,
+     0.19462
+    ],
+    "emissiveColor": "#ffcf7a",
+    "day": 0,
+    "night": 1.5,
+    "emissiveTexture": {
+     "name": "facade-glow",
+     "texCoord": 1
+    },
+    "inThisPark": true
+   },
+   {
+    "name": "lamp",
+    "emissiveFactor": [
+     1,
+     0.76815,
+     0.32314
+    ],
+    "emissiveColor": "#ffe39a",
+    "day": 0.6,
+    "night": 2.4,
+    "emissiveTexture": null,
+    "inThisPark": true
+   },
+   {
+    "name": "window",
+    "emissiveFactor": [
+     1,
+     0.62396,
+     0.19462
+    ],
+    "emissiveColor": "#ffcf7a",
+    "day": 0,
+    "night": 1.3,
+    "emissiveTexture": null,
+    "inThisPark": true
+   },
+   {
+    "name": "glass",
+    "emissiveFactor": [
+     1,
+     0.62396,
+     0.19462
+    ],
+    "emissiveColor": "#ffcf7a",
+    "day": 0,
+    "night": 0.45,
+    "emissiveTexture": null,
+    "inThisPark": true
+   },
+   {
+    "name": "ground-1-0-0",
+    "emissiveFactor": [
+     1,
+     1,
+     1
+    ],
+    "emissiveColor": "#ffffff",
+    "day": 0,
+    "night": 2.2,
+    "emissiveTexture": {
+     "name": "nightlight-ground",
+     "texCoord": 1
+    },
+    "inThisPark": true
+   },
+   {
+    "name": "ground-1-1-0",
+    "emissiveFactor": [
+     1,
+     1,
+     1
+    ],
+    "emissiveColor": "#ffffff",
+    "day": 0,
+    "night": 2.2,
+    "emissiveTexture": {
+     "name": "nightlight-ground",
+     "texCoord": 1
+    },
+    "inThisPark": true
+   },
+   {
+    "name": "ground-1-0-1",
+    "emissiveFactor": [
+     1,
+     1,
+     1
+    ],
+    "emissiveColor": "#ffffff",
+    "day": 0,
+    "night": 2.2,
+    "emissiveTexture": {
+     "name": "nightlight-ground",
+     "texCoord": 1
+    },
+    "inThisPark": true
+   },
+   {
+    "name": "ground-1-1-1",
+    "emissiveFactor": [
+     1,
+     1,
+     1
+    ],
+    "emissiveColor": "#ffffff",
+    "day": 0,
+    "night": 2.2,
+    "emissiveTexture": {
+     "name": "nightlight-ground",
+     "texCoord": 1
+    },
+    "inThisPark": true
+   },
+   {
+    "name": "water",
+    "emissiveFactor": [
+     1,
+     1,
+     1
+    ],
+    "emissiveColor": "#ffffff",
+    "day": 0,
+    "night": 1.5,
+    "emissiveTexture": {
+     "name": "nightlight-water",
+     "texCoord": 0
+    },
+    "inThisPark": true
+   },
+   {
+    "name": "paving-ground",
+    "emissiveFactor": [
+     1,
+     1,
+     1
+    ],
+    "emissiveColor": "#ffffff",
+    "day": 0,
+    "night": 2.2,
+    "emissiveTexture": {
+     "name": "nightlight-ground",
+     "texCoord": 1
+    },
+    "inThisPark": true
+   }
+  ]
+ },
+ "lamps": {
+  "file": "lamps.bin",
+  "format": "PQL1: u32 count, u32 recordBytes (16); per record f32 x, y, z (y = post foot), u8 kind (0 ground, 1 pier), 3 reserved bytes",
+  "count": 465,
+  "piers": 12,
+  "caps": {
+   "high": 2500,
+   "medium": 1500,
+   "low": 700
+  },
+  "capRule": "keep record j (0-based) when floor((j + 1) * f) > floor(j * f), f = cap / count (only when count > cap)",
+  "style": {
+   "postHeight": 4.2,
+   "postColor": "#2c3036",
+   "pole": {
+    "radiusTop": 0.06,
+    "radiusBottom": 0.08,
+    "sides": 5
+   },
+   "lantern": {
+    "radiusTop": 0.22,
+    "radiusBottom": 0.12,
+    "height": 0.35,
+    "centerAbovePost": 0.12,
+    "sides": 5
+   },
+   "postSink": 0.1,
+   "head": {
+    "radius": 1.3,
+    "minPx": 3.2,
+    "aboveGround": 4.35
+   },
+   "lightMapSize": 1024,
+   "poolRadius": 10,
+   "pathGlow": 0.34,
+   "postDistance": 650,
+   "headColor": "#ffc56b",
+   "headCore": "#fff5db"
+  },
+  "head": "additive camera-facing disc, radius head.radius m but at least head.minPx px; d = distance to center (0..1): core = smoothstep(0.42, 0.12, d), halo = (1 - d)^1.6 * 0.85, color = mix(headColor, headCore, core) * (core + halo) * k",
+  "visibility": "only when k > 0.001; posts hidden beyond 650 m camera distance (heads stay)"
+ },
+ "lightMap": {
+  "file": "nightlight.png",
+  "size": 1024,
+  "colorSpace": "sRGB",
+  "extent": {
+   "x0": -682.647,
+   "z0": -663.107,
+   "size": 1357.38
+  },
+  "uv": "u = (x - x0) / size, v = (z - z0) / size (row 0 = north edge, z0)",
+  "content": "black, paving.png tinted #ffd9a0 × 0.34, plus a warm radial pool of 10 m per lamp, added and clamped",
+  "terrain": "emissive += albedo × light × 2.2 × k (in park-models.glb: nightlight-ground = albedo × light on TEXCOORD_1 of terrain:* and paving; strength 2.2 × k)",
+  "water": "web: light map sampled 4, 10 and 18 m further from the viewer (weights 0.5, 0.4, 0.3) × ripple × 3 × k; in park-models.glb: nightlight-water on the water's TEXCOORD_0, strength 1.5 × k (no offset)"
+ },
+ "water": {
+  "day": {
+   "sky": "#dcf1fb",
+   "shallow": "#78d3d6",
+   "deep": "#3f8fc2",
+   "lagoon": "#4aaebb",
+   "pool": "#94deea",
+   "river": "#284066"
+  },
+  "night": {
+   "sky": "#1b2c66",
+   "shallow": "#1c4fa0",
+   "deep": "#0b2462"
+  },
+  "inlandNight": "inland water (lagoons, rivers): base × (0.16, 0.22, 0.42), 80 %",
+  "nightMultiply": [
+   0.0646,
+   0.0921,
+   0.3746
+  ],
+  "approximation": "park-models.glb water has its day color in COLOR_0: at night multiply it by mix(1, nightMultiply, k) (baseColorFactor), a simplification of the web shader"
+ },
+ "map": {
+  "nightTint": [
+   0.05,
+   0.065,
+   0.15
+  ],
+  "nightLift": [
+   0.004,
+   0.006,
+   0.018
+  ],
+  "rule": "OSM tiles (unlit) and the region sea edge: linear color = mix(c, c * tint + lift, k)"
+ },
+ "contextFade": {
+  "inner": 45,
+  "outer": 5
+ },
+ "markers": {
+  "nightAbove": 0.5,
+  "activity": {
+   "glow": "0 0 0 1px #0b142e66, 0 0 10px #ffd59a59",
+   "selectedBackground": "#1b2440",
+   "selectedText": "#f1f3f9",
+   "category": "#f1f3f9b3"
+  },
+  "navPanel": {
+   "background": "#1b2440f5",
+   "text": "#f1f3f9",
+   "secondary": "#f1f3f9b3",
+   "time": "#81c995",
+   "link": "#8ab4f8"
+  },
+  "walker": {
+   "glow": "0 0 0 3px #5b9cff55, 0 0 12px #5b9cffaa"
+  }
+ },
+ "navigation": {
+  "route": "#1a73e8",
+  "routeNight": "#5b9cff",
+  "walked": "#8fa8c8",
+  "casing": "#ffffff"
+ }
+}

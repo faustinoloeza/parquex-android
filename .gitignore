@@ -1,0 +1,20 @@
+# Gradle / Kotlin
+.gradle
+.kotlin
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Studio (se regenera desde Gradle)
+.idea/
+*.iml
+
+# Salidas y llaves de firma
+*.apk
+*.aab
+*.jks
+*.keystore
+
+.DS_Store

@@ -1,0 +1,4 @@
+# Reglas de R8 del proyecto (AGP combina los archivos de src/main/keepRules).
+
+# Filament / gltfio: el código nativo llama a clases y métodos Java por JNI.
+-keep class com.google.android.filament.** { *; }

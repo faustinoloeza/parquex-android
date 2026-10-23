@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Parquex</string>
+
+    <string name="park_xc">Xcaret</string>
+    <string name="park_xh">Xel-Há</string>
+    <string name="park_xp">Xplor</string>
+    <string name="park_xs">Xenses</string>
+    <string name="park_xo">Xoximilco</string>
+
+    <string name="loading_park">Cargando %1$s…</string>
+    <string name="loading_progress">Cargando texturas… %1$d%%</string>
+    <string name="missing_title">Modelo 3D no disponible</string>
+    <string name="missing_body">Aún no existe parks/%1$s/park-models.glb. Genéralo en el proyecto web con «npm run export:mobile».</string>
+    <string name="error_title">No se pudo cargar el parque</string>
+    <string name="no_parks">No hay parques en assets/parks/.</string>
+
+    <string name="zoom_in">Acercar</string>
+    <string name="zoom_out">Alejar</string>
+    <string name="compass">Orientar al norte</string>
+    <string name="recenter">Ver todo el parque</string>
+    <string name="shadows">Sombras en tiempo real</string>
+    <string name="animations">Animaciones</string>
+    <string name="park_switcher">Cambiar de parque</string>
+    <string name="settings">Ajustes</string>
+    <string name="walkways">Andadores</string>
+    <string name="my_location">Mi ubicación</string>
+    <string name="hours_short">%1$s – %2$s</string>
+
+    <string name="other_pois">Otros</string>
+    <string name="group_description">%1$s: %2$d puntos</string>
+    <string name="osm_attribution">© colaboradores de OpenStreetMap</string>
+
+    <string name="simulate_location">Simular ubicación en el parque</string>
+    <string name="simulated_badge">Ubicación simulada</string>
+    <string name="stop_simulation">Detener simulación</string>
+    <string name="simulating_on">Simulando un paseo por %1$s</string>
+    <string name="simulated_tour_pois">las actividades</string>
+    <string name="simulated_tour_walkways">los andadores del parque</string>
+    <string name="location_searching">Buscando tu ubicación…</string>
+    <string name="location_denied">Sin permiso de ubicación no se puede mostrar dónde estás.</string>
+    <string name="location_disabled">Activa la ubicación del teléfono para verte en el mapa.</string>
+    <string name="location_outside">Estás a %1$s km de %2$s. Para probar, activa «Simular ubicación» en ajustes.</string>
+
+    <string name="poi_included">Incluido con tu entrada</string>
+    <string name="poi_extra_cost">Costo adicional</string>
+    <string name="poi_inactive">Temporalmente cerrado</string>
+    <string name="poi_route">Ruta: %1$s</string>
+    <string name="hours">Horario %1$s – %2$s</string>
+    <string name="close">Cerrar</string>
+
+    <string name="activities_list">Lista de actividades</string>
+    <string name="search_hint">Buscar actividad, restaurante…</string>
+    <string name="clear_search">Borrar búsqueda</string>
+    <string name="park_hours">Horario del parque: %1$s – %2$s</string>
+    <string name="no_results">Sin resultados</string>
+
+    <string name="section_language">Idioma</string>
+    <string name="section_quality">Calidad gráfica</string>
+    <string name="section_map">Mapa</string>
+    <string name="language_es">Español</string>
+    <string name="language_en">English</string>
+    <string name="quality_auto">Auto</string>
+    <string name="quality_auto_current">Auto · %1$s</string>
+    <string name="quality_high">Alta</string>
+    <string name="quality_medium">Media</string>
+    <string name="quality_low">Baja</string>
+    <string name="section_mode">Modo</string>
+    <string name="mode_auto">Automático</string>
+    <string name="mode_auto_current">Automático · %1$s</string>
+    <string name="mode_day">Día</string>
+    <string name="mode_night">Noche</string>
+
+    <!-- Navegación a pie (llaves de docs/app-movil-noche-navegacion.md de la web; {…} los rellena nav/) -->
+    <string name="nav_directions" formatted="false">Cómo llegar</string>
+    <string name="nav_go" formatted="false">Ir</string>
+    <string name="nav_goTo" formatted="false">Cómo llegar a</string>
+    <string name="nav_start" formatted="false">Iniciar</string>
+    <string name="nav_simulate" formatted="false">Simular recorrido</string>
+    <string name="nav_end" formatted="false">Terminar</string>
+    <string name="nav_steps" formatted="false">Indicaciones</string>
+    <string name="nav_min" formatted="false">min</string>
+    <string name="nav_walk" formatted="false">a pie</string>
+    <string name="nav_from" formatted="false">Desde</string>
+    <string name="nav_from_gps" formatted="false">Tu ubicación</string>
+    <string name="nav_from_sim" formatted="false">Entrada del parque (simulada)</string>
+    <string name="nav_from_manual" formatted="false">Punto elegido en el mapa</string>
+    <string name="nav_locating" formatted="false">Buscando tu ubicación…</string>
+    <string name="nav_far" formatted="false">Estás lejos del parque: ubicación simulada en la entrada</string>
+    <string name="nav_denied" formatted="false">Sin permiso de ubicación: ubicación simulada en la entrada</string>
+    <string name="nav_unavailable" formatted="false">Ubicación no disponible: ubicación simulada en la entrada</string>
+    <string name="nav_manual" formatted="false">Salida desde el punto elegido (simulada)</string>
+    <string name="nav_pick" formatted="false">Elegir salida</string>
+    <string name="nav_pick_hint" formatted="false">Toca el mapa para elegir el punto de partida</string>
+    <string name="nav_cancel" formatted="false">Cancelar</string>
+    <string name="nav_speed" formatted="false">Velocidad de la simulación</string>
+    <string name="nav_recenter" formatted="false">Recentrar</string>
+    <string name="nav_rerouting" formatted="false">Recalculando ruta…</string>
+    <string name="nav_direct" formatted="false">Sin andador cercano: se indica en línea recta</string>
+    <string name="nav_then" formatted="false">Después</string>
+    <string name="nav_arrived" formatted="false">Has llegado</string>
+    <string name="nav_simulating" formatted="false">Simulación</string>
+    <string name="nav_head" formatted="false">Camina hacia el {dir}</string>
+    <string name="nav_dir_n" formatted="false">norte</string>
+    <string name="nav_dir_ne" formatted="false">noreste</string>
+    <string name="nav_dir_e" formatted="false">este</string>
+    <string name="nav_dir_se" formatted="false">sureste</string>
+    <string name="nav_dir_s" formatted="false">sur</string>
+    <string name="nav_dir_sw" formatted="false">suroeste</string>
+    <string name="nav_dir_w" formatted="false">oeste</string>
+    <string name="nav_dir_nw" formatted="false">noroeste</string>
+    <string name="nav_left" formatted="false">Gira a la izquierda</string>
+    <string name="nav_right" formatted="false">Gira a la derecha</string>
+    <string name="nav_slight_left" formatted="false">Gira ligeramente a la izquierda</string>
+    <string name="nav_slight_right" formatted="false">Gira ligeramente a la derecha</string>
+    <string name="nav_near" formatted="false">{text} cerca de {near}</string>
+    <string name="nav_arrive" formatted="false">Llegas a tu destino</string>
+    <string name="nav_arrive_at" formatted="false">Llegas a {name}</string>
+    <string name="nav_in" formatted="false">En {dist} {text}</string>
+    <string name="selected_location">Punto seleccionado</string>
+</resources>
